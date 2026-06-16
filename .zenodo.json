@@ -1,0 +1,23 @@
+{
+  "title": "Backend and Composition Faults in an Unattended LLM-Agent System: A Fault-Injection Study and Field Log — Replication Package",
+  "upload_type": "software",
+  "description": "Replication artifacts for the ReSAISE 2026 paper (4th IEEE International Workshop on Reliable and Secure AI for Software Engineering, co-located with ISSRE 2026). Includes a self-contained mechanism reproduction (standalone_demo.py) of the three measured deltas (pure-data fallback 4/4 vs 0/4; per-agent isolation blast radius 1 vs 6; defensive loader 3/3 vs 0/3), the fault-injection result file, a redacted retrospective incident file, and the log-mining classifier. Raw operator logs are private and not included.",
+  "creators": [
+    {
+      "name": "Malhotra, Suneet",
+      "orcid": "0009-0003-8707-9590"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "software reliability",
+    "LLM agents",
+    "fault injection",
+    "graceful degradation",
+    "fault isolation",
+    "dependability",
+    "experience report"
+  ],
+  "version": "v1.0"
+}
