@@ -1,10 +1,12 @@
 # Replication package — LLM-agent fleet reliability
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20712413.svg)](https://doi.org/10.5281/zenodo.20712413)
+
 Replication artifacts for the paper:
 
 > **Backend and Composition Faults in an Unattended LLM-Agent System: A Fault-Injection Study and Field Log** (ReSAISE 2026, 4th IEEE Workshop on Reliable and Secure AI for Software Engineering, co-located with ISSRE 2026).
 
-Release tag: `v1.0`.
+Release tag: `v1.0`. Archived at Zenodo: **DOI [10.5281/zenodo.20712413](https://doi.org/10.5281/zenodo.20712413)** (concept DOI, resolves to latest).
 
 ## What's here
 
