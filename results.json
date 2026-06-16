@@ -1,0 +1,74 @@
+{
+  "experiments": {
+    "A_fallback": [
+      {
+        "fault": "timeout",
+        "patterned_completed": true,
+        "ablated_completed": false
+      },
+      {
+        "fault": "nonzero",
+        "patterned_completed": true,
+        "ablated_completed": false
+      },
+      {
+        "fault": "empty",
+        "patterned_completed": true,
+        "ablated_completed": false
+      },
+      {
+        "fault": "notfound",
+        "patterned_completed": true,
+        "ablated_completed": false
+      }
+    ],
+    "B_isolation": {
+      "n_agents": 6,
+      "fault": "one agent raises an uncaught exception",
+      "patterned": {
+        "agents_completed": 5,
+        "run_aborted": false,
+        "blast_radius_agents": 1
+      },
+      "ablated": {
+        "agents_completed": 0,
+        "run_aborted": true,
+        "blast_radius_agents": 6
+      }
+    },
+    "C_degradation": [
+      {
+        "corrupted": "source_a",
+        "patterned_built": true,
+        "ablated_built": false
+      },
+      {
+        "corrupted": "source_b",
+        "patterned_built": true,
+        "ablated_built": false
+      },
+      {
+        "corrupted": "source_c",
+        "patterned_built": true,
+        "ablated_built": false
+      }
+    ]
+  },
+  "summary": {
+    "A_fallback_task_completion_pct": {
+      "patterned": 100.0,
+      "ablated": 0.0,
+      "n_trials": 4
+    },
+    "B_isolation_blast_radius_agents": {
+      "patterned": 1,
+      "ablated": 6,
+      "n_agents": 6
+    },
+    "C_degradation_digest_built_pct": {
+      "patterned": 100.0,
+      "ablated": 0.0,
+      "n_trials": 3
+    }
+  }
+}

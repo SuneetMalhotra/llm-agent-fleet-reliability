@@ -1,0 +1,218 @@
+{
+  "summary": {
+    "total_incidents": 28,
+    "date_span": {
+      "first": "2026-02-24",
+      "last": "2026-06-15"
+    },
+    "by_class": {
+      "scheduler_missed": {
+        "count": 22,
+        "dates": [
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-27",
+          "2026-03-02"
+        ],
+        "sources": [
+          "scheduler.err.log"
+        ]
+      },
+      "single_agent_fault": {
+        "count": 4,
+        "dates": [],
+        "sources": [
+          "scheduler.err.log"
+        ]
+      },
+      "backend_unavailable": {
+        "count": 2,
+        "dates": [
+          "2026-06-15"
+        ],
+        "sources": [
+          "agent_runner.err.log",
+          "fleet_health.out.log"
+        ]
+      }
+    },
+    "logs_scanned": [
+      "agent_runner.err.log",
+      "agent_runner.out.log",
+      "fleet_health.out.log",
+      "scheduler.err.log",
+      "scheduler.out.log"
+    ]
+  },
+  "records": [
+    {
+      "class": "backend_unavailable",
+      "date": "2026-06-15",
+      "source": "agent_runner.err.log",
+      "snippet": "backend timeout / auth-refresh failure"
+    },
+    {
+      "class": "single_agent_fault",
+      "date": null,
+      "source": "scheduler.err.log",
+      "snippet": "unawaited-coroutine RuntimeWarning"
+    },
+    {
+      "class": "single_agent_fault",
+      "date": null,
+      "source": "scheduler.err.log",
+      "snippet": "unawaited-coroutine RuntimeWarning"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-24",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-24",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-25",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-24",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "single_agent_fault",
+      "date": null,
+      "source": "scheduler.err.log",
+      "snippet": "unawaited-coroutine RuntimeWarning"
+    },
+    {
+      "class": "single_agent_fault",
+      "date": null,
+      "source": "scheduler.err.log",
+      "snippet": "unawaited-coroutine RuntimeWarning"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-02-27",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "scheduler_missed",
+      "date": "2026-03-02",
+      "source": "scheduler.err.log",
+      "snippet": "APScheduler 'was missed by'"
+    },
+    {
+      "class": "backend_unavailable",
+      "date": null,
+      "source": "fleet_health.out.log",
+      "snippet": "backend timeout / auth-refresh failure"
+    }
+  ],
+  "_note": "Snippet text and full log paths redacted for public release; counts, classes, and dates are unchanged. Raw logs are not redistributable (operator PII)."
+}
